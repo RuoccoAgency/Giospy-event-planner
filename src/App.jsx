@@ -951,10 +951,13 @@ function App() {
                 href="https://maps.google.com/?q=Giospy+Via+dei+Volsci+115+Latina" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-pink hover:bg-pink-deep text-graphite hover:text-white px-24 py-8 text-[0.8125rem] uppercase tracking-[0.14em] transition-all duration-300 rounded-full font-medium shadow-sm hover:shadow-[0_0_15px_rgba(219,165,160,0.4)] text-center inline-flex items-center justify-center gap-8 group w-full sm:w-auto mt-8"
+                className="bg-pink hover:bg-pink-deep text-graphite hover:text-white px-28 py-12 text-[0.8125rem] uppercase tracking-[0.14em] transition-all duration-300 rounded-[20px] font-medium shadow-sm hover:shadow-[0_0_15px_rgba(219,165,160,0.4)] text-center inline-flex items-center justify-center gap-12 group w-full sm:w-auto mt-8"
               >
-                Ottieni indicazioni su Google Maps
-                <MapPin className="w-16 h-16 text-graphite group-hover:text-white transition-colors" />
+                <div className="flex flex-col items-center sm:items-start text-center sm:text-left leading-tight">
+                  <span className="font-semibold">Ottieni indicazioni</span>
+                  <span className="text-[0.6875rem] lowercase first-letter:uppercase tracking-[0.1em] opacity-80 mt-2">su Google Maps</span>
+                </div>
+                <MapPin className="w-18 h-18 text-graphite group-hover:text-white transition-colors shrink-0" />
               </motion.a>
             </motion.div>
 
