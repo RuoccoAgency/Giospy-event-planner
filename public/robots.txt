@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giospy-event-planner.vercel.app/sitemap.xml
