@@ -575,7 +575,7 @@ function App() {
 
 
       {/* 3. ABOUT SECTION ("Chi sono") */}
-      <section id="chi-sono" className="py-160 bg-offwhite border-y border-grey-line/40 relative overflow-hidden">
+      <section id="chi-sono" className="py-64 lg:py-160 bg-offwhite border-y border-grey-line/40 relative overflow-hidden">
         {/* Soft background glow blobs */}
         <div className="absolute -left-96 top-12 w-[400px] h-[400px] bg-pink-veil/40 rounded-full filter blur-[120px] pointer-events-none" />
         <div className="absolute -right-96 bottom-12 w-[400px] h-[400px] bg-pink-veil/30 rounded-full filter blur-[120px] pointer-events-none" />
@@ -653,7 +653,7 @@ function App() {
 
 
       {/* 4. SERVICES SECTION ("Servizi") */}
-      <section id="servizi" className="py-160 bg-white relative overflow-hidden">
+      <section id="servizi" className="py-64 lg:py-160 bg-white relative overflow-hidden">
         {/* Soft background glow blobs */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-veil/30 rounded-full filter blur-[150px] pointer-events-none" />
 
@@ -742,7 +742,7 @@ function App() {
 
 
       {/* 5. GALLERY SECTION ("Galleria") */}
-      <section id="galleria" className="py-160 bg-offwhite border-y border-grey-line/40">
+      <section id="galleria" className="py-64 lg:py-160 bg-offwhite border-y border-grey-line/40">
         <div className="max-w-[1140px] mx-auto px-24 md:px-48">
           
           <motion.div 
@@ -884,7 +884,7 @@ function App() {
 
 
       {/* 6. SHOP SECTION ("Il negozio") */}
-      <section id="negozio" className="py-160 bg-offwhite border-b border-grey-line/40 relative overflow-hidden">
+      <section id="negozio" className="py-64 lg:py-160 bg-offwhite border-b border-grey-line/40 relative overflow-hidden">
         {/* Glowing backdrop blob */}
         <div className="absolute right-0 top-1/4 w-[350px] h-[350px] bg-pink-veil/40 rounded-full filter blur-[100px] pointer-events-none" />
 
@@ -966,10 +966,11 @@ function App() {
               variants={fadeInSlow}
               className="lg:col-span-6 relative"
             >
-              <div className="border border-pink-veil p-12 bg-white rounded-[32px] shadow-sm w-full relative z-10">
+              <div className="relative overflow-visible">
                 {/* Accent butterfly on the corner of the picture */}
-                <Butterfly className="absolute -top-4 -left-4 w-16 h-16 text-pink-deep animate-float" />
-                <div className="rounded-[20px] overflow-hidden aspect-[3/2] w-full">
+                <Butterfly className="absolute -top-6 -left-6 w-16 h-16 text-pink-deep animate-float" />
+                
+                <div className="rounded-[36px] overflow-hidden aspect-[3/4] w-full border-[8px] border-pink shadow-sm transition-transform duration-500 hover:rotate-2 hover:scale-[1.01] hover:shadow-md">
                   <ImageWithPlaceholder 
                     src="/images/negozio.jpeg" 
                     alt="Negozio Giospy - Via dei Volsci 115 Latina" 
@@ -985,7 +986,7 @@ function App() {
       </section>
 
       {/* 7. TESTIMONIALS SECTION ("Recensioni") */}
-      <section id="recensioni" className="py-160 bg-offwhite/40 overflow-hidden border-t border-grey-line/25">
+      <section id="recensioni" className="py-64 lg:py-160 bg-offwhite/40 overflow-hidden border-t border-grey-line/25">
         <div className="max-w-[1440px] mx-auto px-24 relative z-10">
           
           <motion.div 
@@ -1084,7 +1085,7 @@ function App() {
 
 
       {/* 8. CONTACT SECTION ("Contatti") */}
-      <section id="contatti" className="py-160 bg-offwhite border-t border-grey-line/40">
+      <section id="contatti" className="py-64 lg:py-160 bg-offwhite border-t border-grey-line/40">
         <div className="max-w-[1140px] mx-auto px-24 md:px-48">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-64 items-start">
             
