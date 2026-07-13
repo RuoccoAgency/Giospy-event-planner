@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import { 
+  ArrowRight,
   ChevronRight, 
   ChevronLeft, 
   Instagram, 
@@ -951,13 +952,10 @@ function App() {
                 href="https://maps.google.com/?q=Giospy+Via+dei+Volsci+115+Latina" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-pink hover:bg-pink-deep text-graphite hover:text-white px-16 py-6 transition-all duration-300 rounded-[12px] font-medium shadow-sm hover:shadow-[0_0_15px_rgba(219,165,160,0.4)] text-center inline-flex items-center justify-center gap-8 group w-fit mt-8"
+                className="inline-flex items-center gap-8 border-b border-pink hover:border-pink-deep pb-4 text-[0.8125rem] uppercase tracking-[0.14em] text-graphite transition-all hover:gap-16 font-medium mt-16"
               >
-                <div className="flex flex-col items-center sm:items-start text-center sm:text-left leading-normal font-sans">
-                  <span className="font-semibold text-[10px] tracking-wider uppercase">Ottieni indicazioni</span>
-                  <span className="text-[10px] tracking-wider uppercase">su Google Maps</span>
-                </div>
-                <MapPin className="text-graphite group-hover:text-white transition-colors shrink-0" style={{ width: '12px', height: '12px' }} />
+                Ottieni indicazioni su Google Maps
+                <ArrowRight className="w-16 h-16 text-pink-deep" />
               </motion.a>
             </motion.div>
 
