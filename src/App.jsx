@@ -970,7 +970,7 @@ function App() {
                 {/* Accent butterfly on the corner of the picture */}
                 <Butterfly className="absolute -top-6 -left-6 w-16 h-16 text-pink-deep animate-float" />
                 
-                <div className="rounded-[36px] overflow-hidden aspect-[3/4] w-full border-[8px] border-pink shadow-sm transition-transform duration-500 hover:rotate-2 hover:scale-[1.01] hover:shadow-md">
+                <div className="rounded-[36px] overflow-hidden aspect-[3/4] w-full border-[8px] border-pink-veil shadow-sm transition-transform duration-500 hover:rotate-2 hover:scale-[1.01] hover:shadow-md">
                   <ImageWithPlaceholder 
                     src="/images/negozio.jpeg" 
                     alt="Negozio Giospy - Via dei Volsci 115 Latina" 
