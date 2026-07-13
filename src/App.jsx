@@ -488,9 +488,6 @@ function App() {
             {/* Left Side Butterfly - Middle Right (flying wide) */}
             <Butterfly className="absolute top-[30%] -right-32 w-12 h-12 text-pink-deep animate-fly-2 pointer-events-none select-none hidden md:block" style={{ animationDelay: '1s' }} />
 
-            {/* Left Side Butterfly - Bottom Left near CTA (flying wide) */}
-            <Butterfly className="absolute bottom-8 left-16 w-10 h-10 text-pink-deep animate-fly-1 pointer-events-none select-none" style={{ animationDelay: '0s' }} />
-
             {/* Left Side Butterfly - Top Middle (flying wide) */}
             <Butterfly className="absolute -top-16 left-64 w-8 h-8 text-pink-deep animate-fly-3 pointer-events-none select-none hidden sm:block" style={{ animationDelay: '2s' }} />
             <motion.span variants={fadeUp} className="text-[0.7rem] font-sans font-medium uppercase tracking-[0.3em] text-grey-mid mb-24 block">
@@ -566,6 +563,9 @@ function App() {
                 Showroom Aperto
               </span>
             </div>
+
+            {/* Moved from left side: now floats on the right near the badge (flying wide) */}
+            <Butterfly className="absolute bottom-16 left-32 w-10 h-10 text-pink-deep animate-fly-1 pointer-events-none select-none" style={{ animationDelay: '0.5s' }} />
 
           </motion.div>
 
