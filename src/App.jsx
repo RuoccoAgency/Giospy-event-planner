@@ -571,6 +571,9 @@ function App() {
 
         </div>
 
+        {/* Bottom Center Butterfly (occupies the empty middle space) */}
+        <Butterfly className="absolute top-[60%] left-[45%] w-14 h-14 text-pink-deep animate-fly-3 pointer-events-none select-none z-10 hidden lg:block" style={{ animationDelay: '1.5s' }} />
+
       </section>
 
 
