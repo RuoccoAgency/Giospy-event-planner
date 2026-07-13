@@ -865,9 +865,6 @@ function App() {
                   <span className="text-xs tracking-widest uppercase text-grey-mid">Immagine Bozza</span>
                 </div>
               </div>
-              <h3 className="font-serif text-xl md:text-2xl text-graphite text-center font-normal mt-8">
-                {galleryItems[lightboxIndex].title}
-              </h3>
             </div>
 
             {/* Next Button */}
