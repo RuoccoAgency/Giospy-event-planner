@@ -951,13 +951,13 @@ function App() {
                 href="https://maps.google.com/?q=Giospy+Via+dei+Volsci+115+Latina" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="bg-pink hover:bg-pink-deep text-graphite hover:text-white px-20 py-6 text-[0.72rem] uppercase tracking-[0.12em] transition-all duration-300 rounded-[16px] font-medium shadow-sm hover:shadow-[0_0_15px_rgba(219,165,160,0.4)] text-center inline-flex items-center justify-center gap-8 group w-fit mt-8"
+                className="bg-pink hover:bg-pink-deep text-graphite hover:text-white px-16 py-6 transition-all duration-300 rounded-[12px] font-medium shadow-sm hover:shadow-[0_0_15px_rgba(219,165,160,0.4)] text-center inline-flex items-center justify-center gap-8 group w-fit mt-8"
               >
-                <div className="flex flex-col items-center sm:items-start text-center sm:text-left leading-normal">
-                  <span>Ottieni indicazioni</span>
-                  <span>su Google Maps</span>
+                <div className="flex flex-col items-center sm:items-start text-center sm:text-left leading-normal font-sans">
+                  <span className="font-semibold text-[10px] tracking-wider uppercase">Ottieni indicazioni</span>
+                  <span className="text-[10px] tracking-wider uppercase">su Google Maps</span>
                 </div>
-                <MapPin className="w-14 h-14 text-graphite group-hover:text-white transition-colors shrink-0" />
+                <MapPin className="text-graphite group-hover:text-white transition-colors shrink-0" style={{ width: '12px', height: '12px' }} />
               </motion.a>
             </motion.div>
 
